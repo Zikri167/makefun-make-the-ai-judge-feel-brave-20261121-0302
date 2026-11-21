@@ -1,7 +1,7 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 
-const text = `The plumb bob swings, slows, and stops above the mark. The carpenter does not hurry it — he lets the brass point find its stillness. When it hangs true, his hand steadies; the line is drawn.`;
+const text = `The plumb bob swings, slows, and stops above the mark. The carpenter does not hurry it — he lets the brass point find its own stillness. When it hangs true, his hand steadies, the line is drawn, and the cut can begin.`;
 
 const outputDir = process.env.MAKEFUN_OUTPUT_DIR || "/output";
 const outputFile = join(outputDir, "entry.txt");
